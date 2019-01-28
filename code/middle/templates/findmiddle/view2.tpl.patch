@@ -1,0 +1,5 @@
+93a94,97
+> 									var bounds = new google.maps.LatLngBounds();
+> 									bounds.extend(newLatLng2);
+> 									bounds.extend(newLatLng3);
+> 									map.fitBounds(bounds);

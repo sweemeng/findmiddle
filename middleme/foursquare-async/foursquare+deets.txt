@@ -1,0 +1,20 @@
+Application Name: FindMiddle
+Callback URL: http://findmiddle.com/callback.php
+Key: AQQGLFYSV0HTHFCHR2XNXAJ0JWSZV2P3SDQGK2OR5JKQX3JD
+Secret: AJJNZQPOGD2S4JAYHGOA0SA4VIZDECVT3H04NCL5INOLLW4X
+
+
+
+
+curl -l "q=cafe" http://api.foursquare.com/v1/venues?geolat=3.1179334397319045\&geolong=101.6770076751709
+
+curl -l http://api.foursquare.com/v1/venues?q=cafe\&geolat=3.1179334397319045\&geolong=101.6770076751709
+
+curl -l http://api.foursquare.com/v1/venues.json?q=cafe\&geolat=3.1179334397319045\&geolong=101.6770076751709
+
+curl -l http://api.foursquare.com/v1/venues.json?q=cafe\&l=25\&geolat=3.1179334397319045\&geolong=101.6770076751709
+
+q = search query
+l = limit on query
+geolong = longitud
+geolat = latitude

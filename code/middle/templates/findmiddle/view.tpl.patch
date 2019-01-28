@@ -1,0 +1,8 @@
+82a83,89
+> 									
+> 									var line = new google.maps.Polyline({
+> 									    path: [newLatLng2,newLatLng3],
+> 										strokeColor: "#FF0000",
+> 										strokeOpacity: 1.0,
+> 										strokeWeight: 2
+> 									});

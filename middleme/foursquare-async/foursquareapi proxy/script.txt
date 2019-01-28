@@ -1,0 +1,2 @@
+var request = 'http://api.foursquare.com/v1/venues.json?geolat=51&geolong=-0.087';
+$.getJSON('proxy.php?request=' + escape(request) , function(data) {});

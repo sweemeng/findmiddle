@@ -1,0 +1,14 @@
+^Includes/libs/HTMLPurifier/standalone/HTMLPurifier/DefinitionCache/Serializer/HTML/.*$
+^Includes/libs/HTMLPurifier/standalone/HTMLPurifier/DefinitionCache/Serializer/URI/.*$
+^images/listings/.*$
+^images/users/.*$
+^images/holding/.*$
+^templates/carlist_v15/rss/.*$
+^.*templates/templates_c/.*php$
+^.*templates/cache/.*$
+^jks/bulk/.*$
+\.orig\..*$
+\.orig$
+\.chg\..*$
+\.rej$
+\.conflict\~$
